@@ -1,13 +1,13 @@
-package com.nimo.springcloudstudy;
+package com.example.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringCloudStudyApplication {
+public class EurekaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudStudyApplication.class, args);
+        SpringApplication.run(EurekaApplication.class, args);
     }
 
 }

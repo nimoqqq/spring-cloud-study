@@ -1,10 +1,10 @@
-package com.nimo.springcloudstudy;
+package com.example.eureka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringCloudStudyApplicationTests {
+class EurekaApplicationTests {
 
     @Test
     void contextLoads() {
