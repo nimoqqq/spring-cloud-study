@@ -1,0 +1,12 @@
+# 应用名称
+spring:
+  application:
+    name: cloud-eureka-client
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+
+server:
+  port: 8002

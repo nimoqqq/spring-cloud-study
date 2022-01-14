@@ -1,0 +1,18 @@
+# 应用名称
+spring:
+  application:
+    name: cloud-eureka-sever
+
+server:
+  port: 8001
+
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false #通过eureka.client.registerWithEureka：false和fetchRegistry：false来表明自己是一个eureka server.
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
